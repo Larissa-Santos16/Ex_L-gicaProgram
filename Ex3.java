@@ -8,8 +8,7 @@
 
 import javax.swing.JOptionPane;
 
-public class Ex3um {
-
+public class Ex3 {
     public static void main (String [] args){
 
     double n1;
