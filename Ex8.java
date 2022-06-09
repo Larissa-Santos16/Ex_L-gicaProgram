@@ -15,7 +15,7 @@ public class Ex8 {
         double resultado = 0;
         double soma = 0;
 
-        for(int i = 0; i <5; i++){
+        for(int i = 0; i <=5; i++){
 
             notas [i] = Double.parseDouble(JOptionPane.showInputDialog(null, "Digite um valor: "));
 
