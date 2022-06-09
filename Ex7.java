@@ -11,7 +11,7 @@ public class Ex7 {
         int num [] = new int [10];
         int i;
 
-        for (i = 0; i<10; i++){
+        for (i = 0; i<=10; i++){
 
 
             num [i] = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite um numero: "));
