@@ -16,7 +16,7 @@ int main(int argc, char *argv){
 
 
 
-	for(i = 0; i < 5; i++){
+	for(i = 0; i <= 5; i++){
 		for( j = 0; j < 3; j++){
 			printf("Digite um numero:\n");
 			scanf("%f", &mat[i][j]);
@@ -24,7 +24,7 @@ int main(int argc, char *argv){
 	}
 
 
-	for(i = 0; i < 5; i++){
+	for(i = 0; i <= 5; i++){
 		for(j = 0; j < 3; j++){
 			printf("\n\n%f\n", mat[i][j]);
 		}
@@ -32,7 +32,7 @@ int main(int argc, char *argv){
 
 
 
-	for(i = 0; i < 5; i++){
+	for(i = 0; i <= 5; i++){
 		for(j = 0; j < 3; j++){
 			if(j % 2 != 0){
 				par += mat[i][j] / 5;
