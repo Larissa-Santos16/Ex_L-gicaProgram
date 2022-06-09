@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* Fazer um programa em "C" que lê 10 valores e imprime o maior e o menor
+/* Fazer um programa em "C" que lÃª 10 valores e imprime o maior e o menor
 valores lidos. */
 
 int main(int argc, char *argv[]) {
@@ -11,7 +11,7 @@ int main(int argc, char *argv[]) {
 	int maior = -9999;
 	int i;
 	
-	for (i = 0 ; i < 10; i++){
+	for (i = 0 ; i <= 10; i++){
 		
 		printf("Digite um valor:\n%d", i);
 		scanf("%d", &valores[i]);
@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
 		
 	}
 	
-	for (i = 0; i<10; i++){
+	for (i = 0; i<=10; i++){
 		
 		if(menor> valores[i]){
 			menor= valores[i];
