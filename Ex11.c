@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv){
-	/*Fazer um programa que lê valores para uma matriz do tipo
-	"float" de 5 linhas por 3 colunas e imprime a diferença entre a média
-	dos elementos das colunas pares e a média dos elementos das linhas ímpares.*/
+	/*Fazer um programa que lÃª valores para uma matriz do tipo
+	"float" de 5 linhas por 3 colunas e imprime a diferenÃ§a entre a mÃ©dia
+	dos elementos das colunas pares e a mÃ©dia dos elementos das linhas Ã­mpares.*/
 
 
 	float mat[5][3];
@@ -37,7 +37,7 @@ int main(int argc, char *argv){
 			if(j % 2 != 0){
 				par += mat[i][j] / 5;
 			}else if((i+1) % 2 != 0){
-				impar += mat[i][j] / 3;			
+				impar += mat[i][j] / 9;			
 			}
 		}
 	}
