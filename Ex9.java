@@ -17,7 +17,7 @@ public class Ex9 {
         double amor []= new double [qtd];
 
 
-        for ( int i = 0; i< qtd; i ++){
+        for ( int i = 0; i<=qtd; i ++){
 
 
         amor [i]= Double.parseDouble(JOptionPane.showInputDialog(null, "Digite um numero: "));
@@ -25,7 +25,7 @@ public class Ex9 {
  
         }
 
-        for (int j = 0; j < amor.length; j++) {
+        for (int j = 0; j <= amor.length; j++) {
 
             JOptionPane.showMessageDialog(null, "O valor do vetor será: " + amor[j]);
         }
