@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* Fazer um programa em "C" que lê um conjunto de 10 valores inteiros e verifica
-se algum dos valores é igual a média dos mesmos. */
+/* Fazer um programa em "C" que lÃª um conjunto de 10 valores inteiros e verifica
+se algum dos valores Ã© igual a mÃ©dia dos mesmos. */
 
 int main(int argc, char *argv[]) {
 	
@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
 	int resultado = 0;
 	
 	
-	for(i=0; i < 10; i ++){
+	for(i=0; i <= 10; i ++){
 		
 		printf("Digite um numero: \n%d", i);
 		scanf("%d", &valor[i]);	
@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
 		
 }
 	
-for(i = 0; i < 10; i++){
+for(i = 0; i <= 10; i++){
 		if(resultado == valor[i]){
 			printf("\nA media e igual ao valor: %d do vetor\n", valor[i]);
 		}
